@@ -1,0 +1,104 @@
+{
+	"version": "2.0",
+	"name": "Leaf_Off-Aerial",
+	"description": "",
+	"points": 26332,
+	"projection": "",
+	"hierarchy": {
+		"firstChunkSize": 1496, 
+		"stepSize": 4, 
+		"depth": 0
+	},
+	"offset": [424408.17900085449, 4066111.841003418, 623.53600025177002],
+	"scale": [0.001, 0.001, 0.001],
+	"spacing": 0.06655469536781311,
+	"boundingBox": {
+		"min": [424408.17900085449, 4066111.841003418, 623.53600025177002], 
+		"max": [424416.69800186157, 4066120.360004425, 632.0550012588501]
+	},
+	"encoding": "DEFAULT",
+	"attributes": [
+		{
+			"name": "position",
+			"description": "",
+			"size": 12,
+			"numElements": 3,
+			"elementSize": 4,
+			"type": "int32",
+			"min": [424408.179, 4066111.841, 623.53599999999994],
+			"max": [424416.69799999997, 4066119.2030000002, 631.98599999999999]
+		},{
+			"name": "intensity",
+			"description": "",
+			"size": 2,
+			"numElements": 1,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [642],
+			"max": [64250]
+		},{
+			"name": "return number",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [1],
+			"max": [2]
+		},{
+			"name": "number of returns",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [1],
+			"max": [2]
+		},{
+			"name": "classification",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [0],
+			"max": [0]
+		},{
+			"name": "scan angle rank",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [0],
+			"max": [0]
+		},{
+			"name": "user data",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [1],
+			"max": [16]
+		},{
+			"name": "point source id",
+			"description": "",
+			"size": 2,
+			"numElements": 1,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [1],
+			"max": [4]
+		},{
+			"name": "gps-time",
+			"description": "",
+			"size": 8,
+			"numElements": 1,
+			"elementSize": 8,
+			"type": "double",
+			"min": [492745.49717514118],
+			"max": [493084.09146587452]
+		}
+	]
+}
