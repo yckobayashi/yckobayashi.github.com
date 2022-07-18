@@ -1,0 +1,104 @@
+{
+	"version": "2.0",
+	"name": "Leaf_On-Ground",
+	"description": "",
+	"points": 2551224,
+	"projection": "",
+	"hierarchy": {
+		"firstChunkSize": 19602, 
+		"stepSize": 4, 
+		"depth": 5
+	},
+	"offset": [-44.849201202392578, -10.100399971008301, -0.44319999217987061],
+	"scale": [0.0001, 0.0001, 0.0001],
+	"spacing": 0.071128121577203274,
+	"boundingBox": {
+		"min": [-44.849201202392578, -10.100399971008301, -0.44319999217987061], 
+		"max": [-35.744801640510559, -0.99600040912628174, 8.6611995697021484]
+	},
+	"encoding": "DEFAULT",
+	"attributes": [
+		{
+			"name": "position",
+			"description": "",
+			"size": 12,
+			"numElements": 3,
+			"elementSize": 4,
+			"type": "int32",
+			"min": [-44.849200000000003, -10.1004, -0.43970000000000004],
+			"max": [-36.532299999999999, -1.0897000000000001, 8.5952999999999999]
+		},{
+			"name": "intensity",
+			"description": "",
+			"size": 2,
+			"numElements": 1,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [0],
+			"max": [38550]
+		},{
+			"name": "return number",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [1],
+			"max": [1]
+		},{
+			"name": "number of returns",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [1],
+			"max": [1]
+		},{
+			"name": "classification",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [0],
+			"max": [0]
+		},{
+			"name": "scan angle rank",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [0],
+			"max": [0]
+		},{
+			"name": "user data",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [0],
+			"max": [0]
+		},{
+			"name": "point source id",
+			"description": "",
+			"size": 2,
+			"numElements": 1,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [0],
+			"max": [0]
+		},{
+			"name": "rgb",
+			"description": "",
+			"size": 6,
+			"numElements": 3,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [0, 0, 0],
+			"max": [65024, 45568, 65024]
+		}
+	]
+}
