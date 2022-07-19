@@ -1,0 +1,104 @@
+{
+	"version": "2.0",
+	"name": "DF_Aerial",
+	"description": "",
+	"points": 48960,
+	"projection": "",
+	"hierarchy": {
+		"firstChunkSize": 1342, 
+		"stepSize": 4, 
+		"depth": 0
+	},
+	"offset": [424404.75201416016, 4066108.783996582, 579.55400085449219],
+	"scale": [0.001, 0.001, 0.001],
+	"spacing": 0.07399219274520874,
+	"boundingBox": {
+		"min": [424404.75201416016, 4066108.783996582, 579.55400085449219], 
+		"max": [424414.22301483154, 4066118.2549972534, 589.02500152587891]
+	},
+	"encoding": "DEFAULT",
+	"attributes": [
+		{
+			"name": "position",
+			"description": "",
+			"size": 12,
+			"numElements": 3,
+			"elementSize": 4,
+			"type": "int32",
+			"min": [424404.75199999998, 4066108.784, 579.55399999999997],
+			"max": [424414.17499999999, 4066118.2549999999, 588.38900000000001]
+		},{
+			"name": "intensity",
+			"description": "",
+			"size": 2,
+			"numElements": 1,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [0],
+			"max": [64507]
+		},{
+			"name": "return number",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [1],
+			"max": [1]
+		},{
+			"name": "number of returns",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [1],
+			"max": [1]
+		},{
+			"name": "classification",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [0],
+			"max": [0]
+		},{
+			"name": "scan angle rank",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [0],
+			"max": [0]
+		},{
+			"name": "user data",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [0],
+			"max": [0]
+		},{
+			"name": "point source id",
+			"description": "",
+			"size": 2,
+			"numElements": 1,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [1],
+			"max": [1]
+		},{
+			"name": "rgb",
+			"description": "",
+			"size": 6,
+			"numElements": 3,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [0, 0, 0],
+			"max": [64768, 65280, 64768]
+		}
+	]
+}
