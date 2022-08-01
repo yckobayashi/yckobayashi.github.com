@@ -1,0 +1,122 @@
+{
+	"version": "2.0",
+	"name": "Leaf-on-aerial-Thin_Chestnut",
+	"description": "",
+	"points": 18888,
+	"projection": "",
+	"hierarchy": {
+		"firstChunkSize": 1232, 
+		"stepSize": 4, 
+		"depth": 0
+	},
+	"offset": [424358.86399841309, 4066101.0820007324, 589.23400020599365],
+	"scale": [0.001, 0.001, 0.001],
+	"spacing": 0.060296874493360519,
+	"boundingBox": {
+		"min": [424358.86399841309, 4066101.0820007324, 589.23400020599365], 
+		"max": [424366.58199834824, 4066108.8000006676, 596.9520001411438]
+	},
+	"encoding": "DEFAULT",
+	"attributes": [
+		{
+			"name": "position",
+			"description": "",
+			"size": 12,
+			"numElements": 3,
+			"elementSize": 4,
+			"type": "int32",
+			"min": [424358.864, 4066101.0819999999, 589.23400000000004],
+			"max": [424365.53700000001, 4066105.5649999999, 596.952]
+		},{
+			"name": "intensity",
+			"description": "",
+			"size": 2,
+			"numElements": 1,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [642],
+			"max": [64250]
+		},{
+			"name": "return number",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [1],
+			"max": [2]
+		},{
+			"name": "number of returns",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [1],
+			"max": [2]
+		},{
+			"name": "classification",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [0],
+			"max": [0]
+		},{
+			"name": "scan angle rank",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [0],
+			"max": [0]
+		},{
+			"name": "user data",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [1],
+			"max": [16]
+		},{
+			"name": "point source id",
+			"description": "",
+			"size": 2,
+			"numElements": 1,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [1],
+			"max": [12]
+		},{
+			"name": "gps-time",
+			"description": "",
+			"size": 8,
+			"numElements": 1,
+			"elementSize": 8,
+			"type": "double",
+			"min": [316120.93160498061],
+			"max": [316973.4326559297]
+		},{
+			"name": "Original cloud index",
+			"description": "",
+			"size": 8,
+			"numElements": 1,
+			"elementSize": 8,
+			"type": "double",
+			"min": [0],
+			"max": [0]
+		},{
+			"name": "Coord. Z",
+			"description": "",
+			"size": 8,
+			"numElements": 1,
+			"elementSize": 8,
+			"type": "double",
+			"min": [0],
+			"max": [0]
+		}
+	]
+}

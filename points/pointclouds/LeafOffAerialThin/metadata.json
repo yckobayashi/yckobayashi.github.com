@@ -1,0 +1,113 @@
+{
+	"version": "2.0",
+	"name": "Leaf-off-aerial-Thin_Chestnut",
+	"description": "",
+	"points": 8876,
+	"projection": "",
+	"hierarchy": {
+		"firstChunkSize": 858, 
+		"stepSize": 4, 
+		"depth": 0
+	},
+	"offset": [424358.12899780273, 4066101.2550048828, 622.35200023651123],
+	"scale": [0.001, 0.001, 0.001],
+	"spacing": 0.059374995529651642,
+	"boundingBox": {
+		"min": [424358.12899780273, 4066101.2550048828, 622.35200023651123], 
+		"max": [424365.72899723053, 4066108.8550043106, 629.95199966430664]
+	},
+	"encoding": "DEFAULT",
+	"attributes": [
+		{
+			"name": "position",
+			"description": "",
+			"size": 12,
+			"numElements": 3,
+			"elementSize": 4,
+			"type": "int32",
+			"min": [424358.12900000002, 4066101.2549999999, 622.35199999999998],
+			"max": [424363.46000000002, 4066105.1379999998, 629.952]
+		},{
+			"name": "intensity",
+			"description": "",
+			"size": 2,
+			"numElements": 1,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [642],
+			"max": [64250]
+		},{
+			"name": "return number",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [1],
+			"max": [2]
+		},{
+			"name": "number of returns",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [1],
+			"max": [2]
+		},{
+			"name": "classification",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [0],
+			"max": [0]
+		},{
+			"name": "scan angle rank",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [0],
+			"max": [0]
+		},{
+			"name": "user data",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [1],
+			"max": [16]
+		},{
+			"name": "point source id",
+			"description": "",
+			"size": 2,
+			"numElements": 1,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [1],
+			"max": [4]
+		},{
+			"name": "gps-time",
+			"description": "",
+			"size": 8,
+			"numElements": 1,
+			"elementSize": 8,
+			"type": "double",
+			"min": [492754.59619228443],
+			"max": [493069.49014751514]
+		},{
+			"name": "Coord. Z",
+			"description": "",
+			"size": 8,
+			"numElements": 1,
+			"elementSize": 8,
+			"type": "double",
+			"min": [0],
+			"max": [0]
+		}
+	]
+}

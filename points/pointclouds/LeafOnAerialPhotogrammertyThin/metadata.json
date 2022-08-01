@@ -1,0 +1,104 @@
+{
+	"version": "2.0",
+	"name": "Leaf-on-aerial-photogrammetry-Thin_Chestnut",
+	"description": "",
+	"points": 14129,
+	"projection": "",
+	"hierarchy": {
+		"firstChunkSize": 1342, 
+		"stepSize": 4, 
+		"depth": 0
+	},
+	"offset": [424358.46499633789, 4066097.9319992065, 579.47899627685547],
+	"scale": [0.001, 0.001, 0.001],
+	"spacing": 0.062867224216461182,
+	"boundingBox": {
+		"min": [424358.46499633789, 4066097.9319992065, 579.47899627685547], 
+		"max": [424366.5120010376, 4066105.9790039062, 587.5260009765625]
+	},
+	"encoding": "DEFAULT",
+	"attributes": [
+		{
+			"name": "position",
+			"description": "",
+			"size": 12,
+			"numElements": 3,
+			"elementSize": 4,
+			"type": "int32",
+			"min": [424358.46500000003, 4066097.932, 579.47900000000004],
+			"max": [424362.83600000001, 4066102.1099999999, 587.52599999999995]
+		},{
+			"name": "intensity",
+			"description": "",
+			"size": 2,
+			"numElements": 1,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [0],
+			"max": [65021]
+		},{
+			"name": "return number",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [1],
+			"max": [1]
+		},{
+			"name": "number of returns",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [1],
+			"max": [1]
+		},{
+			"name": "classification",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [0],
+			"max": [0]
+		},{
+			"name": "scan angle rank",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [0],
+			"max": [0]
+		},{
+			"name": "user data",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [0],
+			"max": [0]
+		},{
+			"name": "point source id",
+			"description": "",
+			"size": 2,
+			"numElements": 1,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [1],
+			"max": [1]
+		},{
+			"name": "rgb",
+			"description": "",
+			"size": 6,
+			"numElements": 3,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [0, 0, 0],
+			"max": [65024, 65280, 65024]
+		}
+	]
+}
