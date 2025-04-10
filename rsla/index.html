@@ -7,8 +7,17 @@
   <body>
 	<h1>River Surface Light Availability - CONUS Video</h1>
 	<br>
-	<video webkit-playsinline class = "video" width="960" height="540" autoplay controls muted loop playsinline>
-	<source src="https://github.com/yckobayashi/yckobayashi.github.com/raw/refs/heads/main/rsla/conus-vid.mp4" type="video/mp4"> </source>
-	</video>
+	<video-js id=vid1 width=960 height=540 class="vjs-default-skin" controls>
+	<source
+     src="stream.m3u8"
+     type="application/x-mpegURL">
+	</video-js>
+<!-- "core" version of Video.js -->
+	<script src="video.core.min.js"></script>
+	<script src="videojs-http-streaming.min.js"></script>
+<script>
+var player = videojs('vid1');
+player.play();
+</script>
   </body>
 </html>
